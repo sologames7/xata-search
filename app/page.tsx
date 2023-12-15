@@ -18,6 +18,7 @@ const Home = async ({
         {/** @ts-expect-error Server Component */}
         <SearchResult searchTerm={searchParams.search} />
       </Suspense>
+      aaa
     </main>
   )
 }
